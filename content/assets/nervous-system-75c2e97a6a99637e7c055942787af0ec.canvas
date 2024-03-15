@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"type":"text","text":"[[Human Brain]]","id":"1d5eec68b262b33d","x":-126,"y":-332,"width":250,"height":60},
+		{"type":"text","text":"Central Nervous System","id":"a422ea5fabfd8eb4","x":-440,"y":-272,"width":250,"height":60},
+		{"type":"text","text":"Spinal Cord","id":"a4cdbde92eb759d5","x":-126,"y":-212,"width":250,"height":60},
+		{"type":"text","text":"Autonomic Nervous System","id":"24023b85e7a131a1","x":-140,"y":247,"width":250,"height":60},
+		{"type":"text","text":"Somatic Nervous System","id":"3722ae95fcca1b2c","x":-140,"y":0,"width":250,"height":60},
+		{"type":"text","text":"Peripheral Nervous System","id":"889d7bcea36e19d1","x":-440,"y":120,"width":250,"height":60},
+		{"type":"text","text":"Cranial Nerves","id":"4fec441db6dde0d8","x":155,"y":-60,"width":250,"height":50},
+		{"type":"text","text":"Spinal Nerves","id":"848af615d3ea1060","x":155,"y":60,"width":250,"height":60},
+		{"type":"text","text":"Sympathetic Nervous System","id":"5e7770c58d802a5f","x":155,"y":180,"width":250,"height":60},
+		{"type":"text","text":"Parasympathetic Nervous System","id":"e3dfe9f3921bd597","x":155,"y":307,"width":250,"height":60},
+		{"type":"text","text":"Nervous System","id":"4fc95d72d0ef1c86","x":-565,"y":-90,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"219621b71fc5dd9e","fromNode":"a422ea5fabfd8eb4","fromSide":"right","toNode":"1d5eec68b262b33d","toSide":"left"},
+		{"id":"45a53c5b4290927f","fromNode":"a422ea5fabfd8eb4","fromSide":"right","toNode":"a4cdbde92eb759d5","toSide":"left"},
+		{"id":"1679f76314d430e2","fromNode":"889d7bcea36e19d1","fromSide":"right","toNode":"3722ae95fcca1b2c","toSide":"left"},
+		{"id":"1e503ad51d2e39ba","fromNode":"889d7bcea36e19d1","fromSide":"right","toNode":"24023b85e7a131a1","toSide":"left"},
+		{"id":"73d623d89275004c","fromNode":"3722ae95fcca1b2c","fromSide":"right","toNode":"4fec441db6dde0d8","toSide":"left"},
+		{"id":"4e5f559b47175470","fromNode":"3722ae95fcca1b2c","fromSide":"right","toNode":"848af615d3ea1060","toSide":"left"},
+		{"id":"101140114027d8f4","fromNode":"24023b85e7a131a1","fromSide":"right","toNode":"5e7770c58d802a5f","toSide":"left"},
+		{"id":"3d5176f636e6aa3f","fromNode":"24023b85e7a131a1","fromSide":"right","toNode":"e3dfe9f3921bd597","toSide":"left"},
+		{"id":"e7ead086ad880d54","fromNode":"4fc95d72d0ef1c86","fromSide":"top","toNode":"a422ea5fabfd8eb4","toSide":"bottom"},
+		{"id":"edba957a6cef898d","fromNode":"4fc95d72d0ef1c86","fromSide":"bottom","toNode":"889d7bcea36e19d1","toSide":"top"}
+	]
+}

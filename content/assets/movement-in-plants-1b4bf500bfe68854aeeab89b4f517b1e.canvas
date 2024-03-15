@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"d33b8987315db3df","x":149,"y":-176,"width":250,"height":60,"type":"text","text":"Not Related to Growth\n(Nastic Movements)"},
+		{"id":"c451a97c2421ee32","x":-363,"y":-176,"width":250,"height":60,"type":"text","text":"Related to Growth"},
+		{"id":"e8aafb21697531d8","x":-363,"y":-27,"width":250,"height":60,"type":"text","text":"Tropic Movements"},
+		{"id":"733bb2e419907f78","x":-740,"y":86,"width":250,"height":60,"type":"text","text":"Geotropism\n(Towards Gravity)"},
+		{"id":"8cf8b80a2b98fe48","x":-411,"y":86,"width":250,"height":60,"type":"text","text":"Hydrotropism\n(Towards Water)"},
+		{"id":"46689f95bc31c241","x":-101,"y":86,"width":250,"height":60,"type":"text","text":"Chemotropism\n(Towards Chemicals)"},
+		{"id":"9852244c71086127","x":240,"y":86,"width":250,"height":60,"type":"text","text":"Phototropism\n(Towards light)"},
+		{"id":"d1771ccd86fb83fc","x":240,"y":-87,"width":250,"height":60,"type":"text","text":"Immediate responses, etc"},
+		{"id":"e5605b96775cf68b","x":-101,"y":-280,"width":250,"height":60,"type":"text","text":"Movement in Plants"},
+		{"id":"2bca231ef2b74c9f","x":-740,"y":220,"width":250,"height":60,"type":"text","text":"Roots (+)\nShoots (-)"},
+		{"id":"5648455f4d888077","x":-101,"y":231,"width":250,"height":60,"type":"text","text":"Pollen to Ovule"}
+	],
+	"edges":[
+		{"id":"462edd13af4b0a8f","fromNode":"d33b8987315db3df","fromSide":"bottom","toNode":"d1771ccd86fb83fc","toSide":"top"},
+		{"id":"645942928ae226ab","fromNode":"e5605b96775cf68b","fromSide":"bottom","toNode":"c451a97c2421ee32","toSide":"top"},
+		{"id":"e6e16b17aae746c7","fromNode":"e5605b96775cf68b","fromSide":"bottom","toNode":"d33b8987315db3df","toSide":"top"},
+		{"id":"8bf04d4fd18b3360","fromNode":"c451a97c2421ee32","fromSide":"bottom","toNode":"e8aafb21697531d8","toSide":"top"},
+		{"id":"cd5b7a723332732b","fromNode":"e8aafb21697531d8","fromSide":"bottom","toNode":"733bb2e419907f78","toSide":"top"},
+		{"id":"cf7b92fda0784b2b","fromNode":"e8aafb21697531d8","fromSide":"bottom","toNode":"8cf8b80a2b98fe48","toSide":"top"},
+		{"id":"eeda0816b3764374","fromNode":"e8aafb21697531d8","fromSide":"bottom","toNode":"46689f95bc31c241","toSide":"top"},
+		{"id":"ed8471ea894659bd","fromNode":"e8aafb21697531d8","fromSide":"bottom","toNode":"9852244c71086127","toSide":"top"},
+		{"id":"db95aef1bd3b8a8a","fromNode":"733bb2e419907f78","fromSide":"bottom","toNode":"2bca231ef2b74c9f","toSide":"top"},
+		{"id":"7fb423413d9340f7","fromNode":"46689f95bc31c241","fromSide":"bottom","toNode":"5648455f4d888077","toSide":"top"}
+	]
+}
