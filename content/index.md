@@ -6,6 +6,7 @@ tags:
 academic_year: 2023-24
 date: March 19, 2023
 ---
+```
 The [[Map of Contents]] for the academic year 2023-24.
 
 # [[Science MOC |Science]]
